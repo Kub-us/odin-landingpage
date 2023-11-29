@@ -12,7 +12,6 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     color: #f9faf8;
-    padding: 1rem;
     height: 100vh;
     padding: 1rem 10rem 5rem;
 }
@@ -84,17 +83,17 @@ img {
 }
 
 .info {
-    background-color: #ebf4ff;
+    background-color: rgb(210, 219, 233);
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20vh;
 }
 
 .info h1 {
+    color: #1F2937;
     margin-top: 2em;
     font-size: 36px;
     font-size: 900;
@@ -103,6 +102,7 @@ img {
 .info .cards {
     display: flex;
     gap: 50px;
+    margin: auto;
 }
 
 .info .cards .card-text .card {
@@ -122,4 +122,28 @@ img {
 
 .info .cards .card-text .subtext {
     font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 10rem ;
+}
+
+.quote .text {
+    font-size: 36px;
+    color: #1F2937;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.quote .signature {
+    align-self: flex-end;
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 800;
 }
