@@ -180,3 +180,11 @@ img {
     flex: 0;
     text-wrap: nowrap;
 }
+
+footer {
+    display: flex;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    justify-content: center;
+}
